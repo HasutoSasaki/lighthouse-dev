@@ -1,0 +1,11 @@
+{
+    "name": "lighthouse-docker",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "echo 'Docker Lighthouse 環境準備完了！'",
+        "analyze": "node scripts/analyze.js"
+    },
+    "dependencies": {
+        "lighthouse": "^10.4.0"
+    }
+}
