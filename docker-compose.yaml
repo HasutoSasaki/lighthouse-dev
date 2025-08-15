@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  lighthouse:
+    build: .
+    volumes:
+      # レポートファイルをホストと共有
+      - ./reports:/app/reports
+      # スクリプトの編集をリアルタイム反映
+      - ./scripts:/app/scripts
+    environment:
+      - NODE_ENV=development
+    shm_size: 1gb
