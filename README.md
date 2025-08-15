@@ -37,6 +37,7 @@ docker compose up --build
 ```bash
 # コンテナ内でスクリプトを実行
 docker compose run lighthouse node scripts/analyze.js
+```
 
 
 ## ライセンス
